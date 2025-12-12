@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -12,13 +13,19 @@
 .panda-btn {
   border-radius: 6px;
   background: linear-gradient(
-    rgb(255, 88, 155)-0.006%,
-    rgb(255, 29, 111) 99.994%
+    151deg,
+    rgb(255, 88, 155) 0%,
+    rgb(255, 29, 111) 100%
   );
   padding: 15px 35px;
   border: none;
   color: white;
   font-weight: bold;
+}
+
+.common-section-title {
+  font-weight: 600;
+  font-size: 36px;
 }
 
 /* Nav Section */
@@ -92,4 +99,63 @@ nav {
   margin-bottom: 35px;
   display: block;
   margin-bottom: 0;
+}
+/* category */
+/* .categories {
+  margin: 64px 0;
+} */
+.categories-card-container {
+  display: flex;
+  gap: 26px;
+  width: 100%;
+}
+
+.card-category {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  align-items: center;
+
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+}
+.card-category img {
+  height: 55px;
+}
+.card-category h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card-category-1 {
+  background: linear-gradient(
+    151.85deg,
+    rgba(255, 156, 53, 1),
+    rgba(255, 208, 25, 1) 100%
+  );
+}
+
+.card-category:nth-child(1) {
+  background: linear-gradient(
+    151.85deg,
+    rgba(255, 156, 53, 1),
+    rgba(255, 208, 25, 1) 100%
+  );
+}
+.card-category:nth-child(2) {
+  background: linear-gradient(
+    151.85deg,
+    rgba(255, 88, 155) 0%,
+    rgba(255, 19, 111) 100%
+  );
+}
+
+.card-category:nth-child(3) {
+  background: linear-gradient(
+    151.85deg,
+    rgba(66, 137, 255) 15.416%,
+    rgba(65, 7, 248) 99.994%
+  );
 }
