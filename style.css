@@ -1,3 +1,5 @@
+/* common css */
+
 * {
   box-sizing: border-box;
 }
@@ -6,9 +8,24 @@
   max-width: 1280px;
   margin: auto;
 }
+
+.panda-btn {
+  border-radius: 6px;
+  background: linear-gradient(
+    rgb(255, 88, 155)-0.006%,
+    rgb(255, 29, 111) 99.994%
+  );
+  padding: 15px 35px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Nav Section */
 nav {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .search-parent {
@@ -39,4 +56,40 @@ nav {
 .nav-items li a {
   text-decoration: none;
   color: #707070;
+}
+
+/* banner 
+ */
+.banner {
+  background: rgba(254, 234, 233, 1);
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  padding: 28px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+.banner h2 {
+  color: rgb(31, 31, 31);
+  font-size: 52px;
+  font-weight: bold;
+}
+.banner p {
+  color: rgba(78, 78, 78, 1);
+  max-width: 550px;
+}
+
+.banner img {
+  width: 402px;
+  height: 370px;
+}
+
+.banner-price {
+  color: #ff136f;
+  font-weight: bold;
+  font-size: 41px;
+  margin-bottom: 35px;
+  display: block;
+  margin-bottom: 0;
 }
